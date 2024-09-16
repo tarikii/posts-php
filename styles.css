@@ -1,0 +1,26 @@
+body {
+    background-color: #C3B1E1; /* Light background color */
+}
+.center-container {
+    min-height: 100vh; /* Full viewport height */
+}
+.btn {
+    padding: 15px 30px; /* Increased padding for a bigger button */
+    font-size: 18px; /* Larger font size */
+    border-radius: 50px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 200px;
+}
+.btn-primary {
+    background-color: #007bff; /* Custom primary color */
+    border: none;
+}
+.btn-secondary {
+    background-color: #6c757d; /* Custom secondary color */
+    border: none;
+}
+.btn:hover {
+    transform: translateY(-3px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
